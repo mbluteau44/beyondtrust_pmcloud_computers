@@ -18,7 +18,7 @@
   
   Get all Computers
 
-     <img src="images/AccountRead.png" alt="Get a Computer">
+   <img src="images/AccountRead.png" alt="Get a Computer">
   
   Get a single Computer
   
