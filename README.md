@@ -36,11 +36,11 @@
 
   Archive Computer (Disable)
   
-   <img src="images/DisableAccount.png" alt="Archive Computer">
+   <img src="images/AccountDisable.png" alt="Archive Computer">
 
   Un-Archive Computer (Enable)
   
-   <img src="images/EnableAccount.png" alt="Un-Archive Computer">
+   <img src="images/AccountEnable.png" alt="Un-Archive Computer">
 
   Delete Computer
   
