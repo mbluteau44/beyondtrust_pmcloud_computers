@@ -30,11 +30,23 @@
    <img src="images/EntitlementList.png" alt="Get all Groups">
 
   
-  Get a Group
+  Assign Computer to Group
   
-   <img src="images/EntitlementRead.png" alt="Get a Groups">
+   <img src="images/Account Update.png" alt="Assign Computer to Group">
 
+  Archive Computer (Disable)
   
+   <img src="images/DisableAccount.png" alt="Archive Computer">
+
+  Un-Archive Computer (Enable)
+  
+   <img src="images/EnableAccount.png" alt="Un-Archive Computer">
+
+  Delete Computer
+  
+   <img src="images/DeleteAccount.png" alt="Delete Computer">
+
+
   test
   
   
