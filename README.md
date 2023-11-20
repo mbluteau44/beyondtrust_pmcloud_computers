@@ -32,7 +32,7 @@
   
   Assign Computer to Group
   
-   <img src="images/Account Update.png" alt="Assign Computer to Group">
+   <img src="images/AccountUpdate.png" alt="Assign Computer to Group">
 
   Archive Computer (Disable)
   
