@@ -11,23 +11,23 @@
 <h2>Capabilities</h2>
 
   Computers:
-    - list
-    - read
-    - update (Computer Group)
-    - enable
-    - disable
+    -  List
+    -  Read
+    -  Update (Computer Group)
+    -  Enable
+    -  Disable
 
-  Note: Create Computer is not supported.  Computers must register to PM Cloud via the Adapter installation.
+    Note: Create Computer is not supported.  Computers must register to PM Cloud via the Adapter installation.
 
   Computer Groups:
-    - list
-    - read
+    -  List
+    -  Read
     
   <h2>Configuration</h2>
 
   After the Source or Connector definition is added to an IdentityNow instance, we can Add a new source.
  
-   <img src="images/SourceBaseConfiguration.png" alt="Source Base Configuration">
+   <img src="images/Source-BaseConfiguration.png" alt="Source Base Configuration">
 
   We need to provide the OAuth credentials for PM Cloud API Account, together with the API and Authentication URLs. The API Account needs Full Access to the Management API.
  
@@ -37,10 +37,8 @@
  
    <img src="images/Source-Configuration.png" alt="Source Configuration">
 
-  Test the configuration.
+  Test the configuration and if successful, move to the next step, otherwise, address any configuration issue.
  
-   <img src="images/TestConnection.png" alt="Test Connection">
-
   Configure a correlation rule, for example if you want to leverage the registeredOwner Registry key to automatically assign Computer Accounts to Identities.
   As an alternative, it is also possible to import a csv file for uncorrelated accounts.
   The registeredOwner Registry key value would need to be updated and managed, since the value automatically assigned by Windows is not reliable.
