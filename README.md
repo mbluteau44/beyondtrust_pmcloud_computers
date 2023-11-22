@@ -62,6 +62,40 @@
    <img src="images/Account-Entitlement-Policy.png" alt="Elevation Policy">
 
 
+<h2>Roles and Access Profiles</h2>
+
+  Access Profiles can be used to provision Entitlements or Computer Groups(and Policy) to Computers. 
+   
+   <img src="images/AccessProfiles.png" alt="Disable Account">
+
+  Access Profiles can be added to Roles.
+  It is also possible to allow Requests for Computer Groups via Applications or otherwise.
+  However, if an expiration time is set for the Requested Computer Group, this will result in no Group at expiration time.
+   
+   <img src="images/Roles.png" alt="Disable Account">
+
+  When using Roles for Joiner Mover Leaver(JML), the Create Account operation is not supported.
+  Computers must be registered via the PM Cloud Adapter installation.
+   
+   <img src="images/Unsupported-CreateAccount.png" alt="Unsupported Create Account">
+
+  A condition must be added to the Roles to prevent the Assign Group operation to be sent before IdentityNow sees the Computer Account.
+   
+   <img src="images/Role-DefineAssignment.png" alt="Define Assignment criteria">
+
+
+
+<h2>Disable, Enable, Remove Account</h2>
+
+  Disable, Enable and Remove Account are supported operations. 
+   
+   <img src="images/DisableAccount.png" alt="Disable Account">
+
+  A disabled Computer Account shows as Archived in PM Cloud. 
+   
+   <img src="images/Archived.png" alt="Archived Computer">
+
+
   
 <h2>Unit testing using Postman collection</h2>
 
